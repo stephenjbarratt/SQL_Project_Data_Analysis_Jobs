@@ -59,6 +59,9 @@ Analysis of results of the Top 10 Highest Paid Data Analytics jobs in the UK (20
 - Location: Majority of the highest paid jobs are located in London. Only one of the top 10 was remote working.
 - Job title: A job that appeared the most was Data Architect with 4 of the 10 employed in this particular role.
 
+
+![image alt]()
+
 # 2. Skills for highest paid jobs
 Next let's take it a step further from the highest paying roles from the last query and now find the most commonly used skills associated with these roles. By knowing these skills, it will help to identify what skills to develop to achieve these higher paid roles. I used the following query to get this information.
 
