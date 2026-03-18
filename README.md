@@ -53,3 +53,11 @@ ORDER BY
 LIMIT
 
 ```
+
+Analysis of results of the Top 10 Highest Paid Data Analytics jobs in the UK (2023):
+- Wide Salary Range: Yearly Salaries range from £180,000 to £132,500 with top employers being large banks and corperations such as Deutsche Bank and Shell
+- Location: Majority of the highest paid jobs are located in London. Only one of the top 10 was remote working.
+- Job title: A job that appeared the most was Data Architect with 4 of the 10 employed in this particular role.
+
+# 2. Skills for highest paid jobs
+
