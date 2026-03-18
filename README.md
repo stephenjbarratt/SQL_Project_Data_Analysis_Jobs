@@ -10,7 +10,7 @@ My aim for this project is to provide myself and others with an insight into the
 
 The project contains data on job postings for data roles in 2023, with insights on job titles, locations, salaries, skills and other employment related information. The data itself comes from Luke Barousse's SQL Course.
 
-The questions I wanted to answer through my SQL queries were:
+ # The questions I wanted to answer through my SQL queries were:
 1. What are the highest paid data analyst jobs?
 2. What skills are required for these highest paid jobs?
 3. What are the most in demand skills for data analysts?
