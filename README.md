@@ -31,7 +31,7 @@ Each query for this project aimed at investigating specific aspects of the data 
 
 1. Highest Paid Data Analyst Jobs
 To identify the highest paid jobs, I filtered Data Analyst positions by averaging yearly salary and location, focusing on jobs in the United Kingdom.
-```
+``` SQL
 SELECT
     job_id,
     job_title,
