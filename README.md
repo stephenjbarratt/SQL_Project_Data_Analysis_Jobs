@@ -63,7 +63,7 @@ Analysis of results of the Top 10 Highest Paid Data Analytics jobs in the UK (20
 ![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/971215a98e3de15d682d3209487c35e667ef3939/Charts/Bar%20Graph.png)
 
 
-_Bar Graph Visualising the Top 10 Highest Paid Data Analyst Jobs in the Uk in 2023_
+*Bar Graph Visualising the Top 10 Highest Paid Data Analyst Jobs in the Uk in 2023*
 ## 2. Skills for highest paid jobs
 Next let's take it a step further from the highest paying roles from the last query and now find the most commonly used skills associated with these roles. By knowing these skills, it will help to identify what skills to develop to achieve these higher paid roles. I used the following query to get this information.
 
