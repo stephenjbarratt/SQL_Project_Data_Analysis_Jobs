@@ -29,7 +29,7 @@ To explore the Data Analysis job market I used several tools:
 # The Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
 
-# 1. Highest Paid Data Analyst Jobs
+## 1. Highest Paid Data Analyst Jobs
 To identify the highest paid jobs, I filtered data analyst positions by averaging yearly salary and location, focusing on jobs in the United Kingdom.
 ``` SQL
 SELECT
@@ -62,7 +62,9 @@ Analysis of results of the Top 10 Highest Paid Data Analytics jobs in the UK (20
 
 ![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/971215a98e3de15d682d3209487c35e667ef3939/Charts/Bar%20Graph.png)
 
-# 2. Skills for highest paid jobs
+
+_Bar Graph Visualising the Top 10 Highest Paid Data Analyst Jobs in the Uk in 2023_
+## 2. Skills for highest paid jobs
 Next let's take it a step further from the highest paying roles from the last query and now find the most commonly used skills associated with these roles. By knowing these skills, it will help to identify what skills to develop to achieve these higher paid roles. I used the following query to get this information.
 
 ``` SQL
@@ -94,7 +96,7 @@ ORDER BY
     salary_year_avg DESC
 ```
 
-# 3. In Demand Skills for Data Analysis
+## 3. In Demand Skills for Data Analysis
 The next query helped to identify the skills with the highest demand, according to job postings in the United Kingdom (2023).
 
 ``` SQL
@@ -118,7 +120,7 @@ Analysis of results of the 5 most in demand skills for data analysis in the UK (
 - SQL (4480) and Excel (4281) are first and second respecively, emphasising the need for foundational skills in data processing and spreadsheet manipulation.
 - Programming and Visualisation tools such as Python, Power BI and Tableau are also important, showing the need for technical skills to carry out data storytelling.
 
-# 4. Months with the highest job postings
+## 4. Months with the highest job postings
 The following query shows the months of the year where job postings for data analysis jobs are at there highest and lowest, helping job seekers effectively time appliactions.
 ``` SQL
 SELECT 
