@@ -60,4 +60,34 @@ Analysis of results of the Top 10 Highest Paid Data Analytics jobs in the UK (20
 - Job title: A job that appeared the most was Data Architect with 4 of the 10 employed in this particular role.
 
 # 2. Skills for highest paid jobs
+Next let's take it a step further from the highest paying roles from the last query and now find the most commonly used skills associated with these roles. By knowing these skills, it will help to identify what skills to develop to achieve these higher paid roles. I used the following query to get this information.
+
+``` SQL
+WITH highest_paid_jobs AS (
+SELECT
+    job_id,
+    job_title,
+    salary_year_avg,
+    job_posted_date,
+    company_dim.name AS company_name
+FROM
+    job_postings_fact
+LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+WHERE
+    job_title_short = 'Data Analyst' AND
+    job_location = 'United Kingdom' AND
+    salary_year_avg IS NOT NULL
+ORDER BY
+    salary_year_avg DESC
+LIMIT 10
+)
+SELECT 
+highest_paid_jobs.*,
+skills
+FROM highest_paid_jobs
+INNER JOIN skills_job_dim ON highest_paid_jobs.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+ORDER BY
+    salary_year_avg DESC
+```
 
