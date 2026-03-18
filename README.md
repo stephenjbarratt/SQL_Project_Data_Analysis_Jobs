@@ -10,7 +10,7 @@ My aim for this project is to provide myself and others with an insight into the
 
 The project contains data on job postings for data roles in 2023, with insights on job titles, locations, salaries, skills and other employment related information. The data itself comes from Luke Barousse's SQL Course.
 
-- The questions I wanted to answer through my SQL queries were:
+The questions I wanted to answer through my SQL queries were:
 1. What are the highest paid data analyst jobs?
 2. What skills are required for these highest paid jobs?
 3. What are the most in demand skills for data analysts?
@@ -25,3 +25,31 @@ To explore the Data Analysis job market I used several tools:
 * Git & GitHub: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 * Excel: For storytelling the data through charts.
 
+
+# The Analysis
+Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
+
+1. Highest Paid Data Analyst Jobs
+To identify the highest paid jobs, I filtered Data Analyst positions by averaging yearly salary and location, focusing on jobs in the United Kingdom.
+```
+SELECT
+    job_id,
+    job_title,
+    job_country,
+    job_location,
+    job_schedule_type,
+    salary_year_avg,
+    job_posted_date,
+    name AS company_name
+FROM
+    job_postings_fact
+LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+WHERE
+    job_title_short = 'Data Analyst' AND
+    job_country = 'United Kingdom' AND
+    salary_year_avg IS NOT NULL
+ORDER BY
+    salary_year_avg DESC
+LIMIT
+
+```
