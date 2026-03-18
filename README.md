@@ -136,7 +136,7 @@ Analysis of which months have the most data analysis job postings in the UK (202
 # What I Learnt
 Throughout this project I have developed a number of skills and techniques to improve my SQL knowledge and ability:
 - 🧩 Complex Queries: Mastering complex SQL, by merging tables using JOIN and WITH clauses for Common Table Expressions.
-- 📊 Data Aggregation: Used GROUP BY and aggregate functions like COUNT() and AVG().
+- 📊 Data Aggregation: Used commands such as GROUP BY and aggregate functions like COUNT() and AVG().
 - 💡 Analytical Skills - Transformed questions into actonable SQL queries, levelling up my real world problem solving skills.
   
 # Conclusion
