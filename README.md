@@ -30,7 +30,7 @@ To explore the Data Analysis job market I used several tools:
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
 
 # 1. Highest Paid Data Analyst Jobs
-To identify the highest paid jobs, I filtered Data Analyst positions by averaging yearly salary and location, focusing on jobs in the United Kingdom.
+To identify the highest paid jobs, I filtered data analyst positions by averaging yearly salary and location, focusing on jobs in the United Kingdom.
 ``` SQL
 SELECT
     job_id,
