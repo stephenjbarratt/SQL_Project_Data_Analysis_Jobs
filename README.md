@@ -3,12 +3,12 @@
 # Introduction
 📊 Exploring the global and UK data job market, this project focuses on Data Analytics roles featuring: 💰 Highest paid jobs, 🔥 in-demand skills, 📈 skills related to higher salaries and 📅 when job listings are most frequent.
 
-🔍 SQL queries? Check them out here: ADD HYPERLINK TO QUERY
+🔍 SQL queries? Check them out here: [sql_queries]()
 
 # Background
 My aim for this project is to provide myself and others with an insight into the global and UK Data Analysis job market.
 
-The project contains data on job postings for data roles in 2023, with insights on job titles, locations, salaries, skills and other employment related information. The data itself comes from Luke Barousse's SQL Course.
+The project contains data on job postings for data roles in 2023, with insights on job titles, locations, salaries, skills and other employment related information. The data itself comes from Luke Barousse's [SQL Course](https://www.lukebarousse.com/sql).
 
 The questions I wanted to answer through my SQL queries were:
 1. What are the highest paid data analyst jobs?
