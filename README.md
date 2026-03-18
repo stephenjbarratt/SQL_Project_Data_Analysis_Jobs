@@ -91,3 +91,48 @@ ORDER BY
     salary_year_avg DESC
 ```
 
+# 3. In Demand Skills for Data Analysis
+The next query helped to identify the skills with the highest demand, according to job postings in the United Kingdom (2023).
+
+``` SQL
+SELECT
+skills,
+COUNT(skills_job_dim.job_id) AS demand_count
+FROM job_postings_fact
+INNER JOIN skills_job_dim ON job_postingS_fact.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE
+    job_title_short = 'Data Analyst' AND
+    job_country = 'United Kingdom'
+GROUP BY
+    skills
+ORDER BY
+    demand_count DESC
+LIMIT 5
+```
+
+Analysis of results of the 5 most in demand skills for data analysis in the UK (2023)
+- SQL (4480) and Excel (4281) are first and second respecively, emphasising the need for foundational skills in data processing and spreadsheet manipulation.
+- Programming and Visualisation tools such as Python, Power BI and Tableau are also important, showing the need for technical skills to carry out data storytelling.
+
+# 4. Months with the highest job postings
+The following query shows the months of the year where job postings for data analysis jobs are at there highest and lowest, helping job seekers effectively time appliactions.
+``` SQL
+SELECT 
+    EXTRACT(MONTH FROM job_posted_date) AS month,
+    COUNT(CASE WHEN job_country = 'United Kingdom' THEN job_id END) AS number_of_postings_UK
+FROM job_postings_fact
+WHERE job_title_short = 'Data Analyst'
+AND EXTRACT(YEAR FROM job_posted_date) = 2023
+GROUP BY month
+ORDER BY month;
+```
+Analysis of which months have the most data analysis job postings in the UK (2023)
+- January stands out as the month with the highest amount of job postings, likely due to companies hiring for the new year.
+- There is a sharp increase in the number of job postings in September and October, possibly influenced by organisational needs for Q4 and also an intake of graduates.
+
+# Troubleshooting
+
+# What I Learnt
+
+# Conclusion
