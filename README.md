@@ -101,6 +101,8 @@ Analysis of the most commonly used skills in the 10 highest paid jobs in the UK,
 
 ![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/457a30239c9190c1abfc7166f9624f01ebd48014/Charts/Bar%20Graph%20For%20Skills.png)
 *Figure 2: Bar Graph visualising the count of skills for the 10 highest paid jobs in data analysis in the UK, 2023.*
+
+
 ## 3. In Demand Skills for Data Analysis
 The next query helped to identify the skills with the highest demand, according to job postings in the United Kingdom (2023).
 
@@ -121,9 +123,12 @@ ORDER BY
 LIMIT 5
 ```
 
-Analysis of results of the 5 most in demand skills for data analysis in the UK (2023)
+Analysis of results of the 5 most in demand skills for data analysis roles in the UK (2023)
 - SQL (4480) and Excel (4281) are first and second respecively, emphasising the need for foundational skills in data processing and spreadsheet manipulation.
 - Programming and Visualisation tools such as Python, Power BI and Tableau are also important, showing the need for technical skills to carry out data storytelling.
+
+![image alt]()
+*Figure 3: Table displaying the 5 most in demand skills for data analysis jobs in the UK (2023)
 
 ## 4. Months with the highest job postings
 The following query shows the months of the year where job postings for data analysis jobs are at there highest and lowest, helping job seekers effectively time appliactions.
