@@ -157,7 +157,7 @@ Analysis of which months have the most data analysis job postings in the UK (202
 During the course of the project I did come across some issues that I had to troubleshoot. This section lists the main problem and the solution, the purpose is to be able to look back at this if I ever come across this error again.
 ## Problem:
 When loading the data into the database, I ran the active connection and received the error messages, shown in Figure 5, in Visual Studio Code.
-The reason for the error messages was because when I was trying to run a copy command to specify a file path, where I want the data to go in the database, PostgreSQL didn't have access to this file.
+The reason for the error messages was because when I was trying to run a copy command to specify a file path, where I want the data to go in the database, PostgreSQL didn't have access to this file. The project also can't be stored in the Cloud or Onedrive when loading the data, so I moved it to a local storage on my machine.
 
 ![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/6ac3321a3a794b5d191b25900050efd80c7c7da9/Charts/Error%20messages.png)
 
