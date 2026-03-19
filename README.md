@@ -95,11 +95,12 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC
 ```
+Analysis of the most commonly used skills in the 10 highest paid jobs in the UK, in 2023.
+- Excel and Python lead the way with 5 of the jobs using these fundamential skills.
+- Tableau and SQL follow with 3 of the jobs using these skills.
 
-Analysis of 
-
-
-![image alt]()
+![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/457a30239c9190c1abfc7166f9624f01ebd48014/Charts/Bar%20Graph%20For%20Skills.png)
+*Figure 2: Bar Graph visualising the count of skills for the 10 highest paid jobs in data analysis in the UK, 2023.*
 ## 3. In Demand Skills for Data Analysis
 The next query helped to identify the skills with the highest demand, according to job postings in the United Kingdom (2023).
 
