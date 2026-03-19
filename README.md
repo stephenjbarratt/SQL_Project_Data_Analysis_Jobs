@@ -154,6 +154,15 @@ Analysis of which months have the most data analysis job postings in the UK (202
 *Figure 4: Line Graph visualising the number of job postings are listed each month of the year for data analysis roles in the UK for the year 2023.*
 
 # Troubleshooting
+During the course of the project I did come across some issues that I had to troubleshoot. This section lists the main problem and the solution, the purpose is to be able to look back at this if I ever come across this error again.
+## Problem:
+When loading the data into the database, I ran the active connection and received the following error message in Visual Studio Code:
+![image alt]()
+
+**Figure 5: Error message in Visual Studio Code**
+
+## Solution:
+
 
 # What I Learnt
 Throughout this project I have developed a number of skills and techniques to improve my SQL knowledge and ability:
