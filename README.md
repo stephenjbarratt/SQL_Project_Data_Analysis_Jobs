@@ -55,7 +55,7 @@ LIMIT
 ```
 
 Analysis of results of the Top 10 Highest Paid Data Analytics jobs in the UK (2023):
-- Wide Salary Range: Yearly Salaries range from £180,000 to £132,500 with top employers being large banks and corperations such as Deutsche Bank and Shell
+- Wide Salary Range: Yearly Salaries range from $180,000 to $132,500 with top employers being large banks and corperations such as Deutsche Bank and Shell
 - Location: Majority of the highest paid jobs are located in London. Only one of the top 10 was remote working.
 - Job title: A job that appeared the most was Data Architect with 4 of the 10 employed in this particular role.
 
@@ -156,4 +156,13 @@ Throughout this project I have developed a number of skills and techniques to im
 - 📊 Data Aggregation: Used commands such as GROUP BY and aggregate functions like COUNT() and AVG().
 - 💡 Analytical Skills - Transformed questions into actonable SQL queries, levelling up my real world problem solving skills.
   
-# Conclusion
+# Conclusions
+## Insights
+From the analysis, several insights emerged:
+1. Highest Paid Data Analyst Jobs: The highest paid jobs in the UK as a Data Analyst in 2023 had a wide range of salaries with the highest being $180,000 around £135,000.
+2. Skills For Highest Paid Jobs: Highest paying data analyst roles demand a need for Excel and Python, suggesting they are key skills for a top earning salary.
+3. Most In-Demand Skills: SQL and Excel are the most in demand skills, suggesting they are essential for anyone wanting to get a job as a data analyst.
+4. When Are Data Analyst Job Postings Most Frequent: The largest demand for data analyst jobs in the UK, in 2023 was in January. There was also a spike in September and October. These are key months for anyone looking to find the right time to apply for a role.
+
+## Closing Thoughts
+This project really helped to improve my SQL skills and overall knowledge, while gaining a valuable insight into the data analyst job market. The insights gained from the analysis have helped me to understand and prioritize skill development and optamize my search strategy. By focusing on high demand skills employers are looking for from data analyst applicants, I can use this knowledge to better position myself in a highly competitive job market. The process has taught me the importance of continuous learning and staying aware to emerging tools and trends in the field of data analysis. One way I would improve this in the future would be to use an updated database with more recent job postings from 2025/26.
