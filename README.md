@@ -99,6 +99,7 @@ ORDER BY
 Analysis of 
 
 
+![image alt]()
 ## 3. In Demand Skills for Data Analysis
 The next query helped to identify the skills with the highest demand, according to job postings in the United Kingdom (2023).
 
