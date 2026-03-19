@@ -156,12 +156,20 @@ Analysis of which months have the most data analysis job postings in the UK (202
 # Troubleshooting
 During the course of the project I did come across some issues that I had to troubleshoot. This section lists the main problem and the solution, the purpose is to be able to look back at this if I ever come across this error again.
 ## Problem:
-When loading the data into the database, I ran the active connection and received the following error message in Visual Studio Code:
-![image alt]()
+When loading the data into the database, I ran the active connection and received the error messages, shown in Figure 5, in Visual Studio Code.
+The reason for the error messages was because when I was trying to run a copy command to specify a file path, where I want the data to go in the database, PostgreSQL didn't have access to this file.
 
-**Figure 5: Error message in Visual Studio Code**
+![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/6ac3321a3a794b5d191b25900050efd80c7c7da9/Charts/Error%20messages.png)
+
+**Figure 5: Error messages**
 
 ## Solution:
+The solution to this problem:
+1. Drop the database as it is most likely corrupted.
+2. Repeat steps to create the database and load table schema.
+3. Open pgAdmin, find the database, right click select PSQL Tool, this opens a terminal window to write the following code.
+4. Find the absolute path of the csv files, right click on csv files in VS Code and select Copy Path.
+5. Paste all of the paths into the PSQL Tool terminal, this will load the data into the database.
 
 
 # What I Learnt
