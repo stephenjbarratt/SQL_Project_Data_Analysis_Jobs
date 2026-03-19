@@ -100,6 +100,7 @@ Analysis of the most commonly used skills in the 10 highest paid jobs in the UK,
 - Tableau and SQL follow with 3 of the jobs using these skills.
 
 ![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/457a30239c9190c1abfc7166f9624f01ebd48014/Charts/Bar%20Graph%20For%20Skills.png)
+
 *Figure 2: Bar Graph visualising the count of skills for the 10 highest paid jobs in data analysis in the UK, 2023.*
 
 
