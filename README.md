@@ -161,7 +161,7 @@ The reason for the error messages was because when I was trying to run a copy co
 
 ![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/6ac3321a3a794b5d191b25900050efd80c7c7da9/Charts/Error%20messages.png)
 
-**Figure 5: Error messages**
+*Figure 5: Error messages*
 
 ## Solution:
 The solution to this problem:
