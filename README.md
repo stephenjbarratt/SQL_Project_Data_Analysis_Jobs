@@ -10,7 +10,7 @@ My aim for this project is to provide myself and others with an insight into the
 
 The project contains data on job postings for data roles in 2023, with insights on job titles, locations, salaries, skills and other employment related information. The data itself comes from Luke Barousse's [SQL Course](https://www.lukebarousse.com/sql).
 
-The questions I wanted to answer through my SQL queries were:
+### The questions I wanted to answer through my SQL queries were:
 1. What are the highest paid data analyst jobs?
 2. What skills are required for these highest paid jobs?
 3. What are the most in demand skills for data analysts?
@@ -19,11 +19,11 @@ The questions I wanted to answer through my SQL queries were:
 
 # Tools I Used
 To explore the Data Analysis job market I used several tools:
-* SQL: The backbone of my analysis, allowing me to query the database and find critical insights.
-* PostgreSQL: The chosen database management system, ideal for handling the job posting data.
-* Visual Studio Code: My go to for database management and executing SQL queries.
-* Git & GitHub: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
-* Excel: For storytelling the data through charts.
+* **SQL:** The backbone of my analysis, allowing me to query the database and find critical insights.
+* **PostgreSQL:** The chosen database management system, ideal for handling the job posting data.
+* **Visual Studio Code:** My go to for database management and executing SQL queries.
+* **Git & GitHub:** Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
+* **Excel:** For storytelling the data through charts.
 
 
 # The Analysis
@@ -55,9 +55,9 @@ LIMIT
 ```
 
 Analysis of results of the Top 10 Highest Paid Data Analytics jobs in the UK (2023):
-- Wide Salary Range: Yearly Salaries range from $180,000 to $132,500 with top employers being large banks and corperations such as Deutsche Bank and Shell
-- Location: Majority of the highest paid jobs are located in London. Only one of the top 10 was remote working.
-- Job title: A job that appeared the most was Data Architect with 4 of the 10 employed in this particular role.
+- **Wide Salary Range:** Yearly Salaries range from $180,000 to $132,500 with top employers being large banks and corperations such as Deutsche Bank and Shell
+- **Location:** Majority of the highest paid jobs are located in London. Only one of the top 10 was remote working.
+- **Job title:** A job that appeared the most was Data Architect with 4 of the 10 employed in this particular role.
 
 
 ![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/971215a98e3de15d682d3209487c35e667ef3939/Charts/Bar%20Graph.png)
@@ -148,21 +148,22 @@ Analysis of which months have the most data analysis job postings in the UK (202
 
 ![image alt](https://github.com/stephenjbarratt/SQL_Project_Data_Analysis_Jobs/blob/d12e87e50861faccda67935daa8d6922f5989998/Charts/Line%20Graph%20For%20Job%20Frequency.png)
 *Figure 4: Line Graph visualising the number of job postings are listed each month of the year for data analysis roles in the UK for the year 2023.*
+
 # Troubleshooting
 
 # What I Learnt
 Throughout this project I have developed a number of skills and techniques to improve my SQL knowledge and ability:
-- 🧩 Complex Queries: Mastering complex SQL, by merging tables using JOIN and WITH clauses for Common Table Expressions.
-- 📊 Data Aggregation: Used commands such as GROUP BY and aggregate functions like COUNT() and AVG().
-- 💡 Analytical Skills - Transformed questions into actonable SQL queries, levelling up my real world problem solving skills.
+- 🧩 **Complex Queries:** Mastering complex SQL, by merging tables using JOIN and WITH clauses for Common Table Expressions.
+- 📊 **Data Aggregation:** Used commands such as GROUP BY and aggregate functions like COUNT() and AVG().
+- 💡 **Analytical Skills:** Transformed questions into actonable SQL queries, levelling up my real world problem solving skills.
   
 # Conclusions
 ## Insights
 From the analysis, several insights emerged:
-1. Highest Paid Data Analyst Jobs: The highest paid jobs in the UK as a Data Analyst in 2023 had a wide range of salaries with the highest being $180,000 around £135,000.
-2. Skills For Highest Paid Jobs: Highest paying data analyst roles demand a need for Excel and Python, suggesting they are key skills for a top earning salary.
-3. Most In-Demand Skills: SQL and Excel are the most in demand skills, suggesting they are essential for anyone wanting to get a job as a data analyst.
-4. When Are Data Analyst Job Postings Most Frequent: The largest demand for data analyst jobs in the UK, in 2023 was in January. There was also a spike in September and October. These are key months for anyone looking to find the right time to apply for a role.
+1. **Highest Paid Data Analyst Jobs:** The highest paid jobs in the UK as a Data Analyst in 2023 had a wide range of salaries with the highest being $180,000 around £135,000.
+2. **Skills For Highest Paid Jobs:** Highest paying data analyst roles demand a need for Excel and Python, suggesting they are key skills for a top earning salary.
+3. **Most In-Demand Skills:** SQL and Excel are the most in demand skills, suggesting they are essential for anyone wanting to get a job as a data analyst.
+4. **When Are Data Analyst Job Postings Most Frequent:** The largest demand for data analyst jobs in the UK, in 2023 was in January. There was also a spike in September and October. These are key months for anyone looking to find the right time to apply for a role.
 
 ## Closing Thoughts
 This project really helped to improve my SQL skills and overall knowledge, while gaining a valuable insight into the data analyst job market. The insights gained from the analysis have helped me to understand and prioritize skill development and optamize my search strategy. By focusing on high demand skills employers are looking for from data analyst applicants, I can use this knowledge to better position myself in a highly competitive job market. The process has taught me the importance of continuous learning and staying aware to emerging tools and trends in the field of data analysis. One way I would improve this in the future would be to use an updated database with more recent job postings from 2025/26.
